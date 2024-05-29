@@ -38,6 +38,10 @@
   padding: 100px 150px;
   background-color: gray;
   border-bottom: 1px solid black;
+  display: flex;
+  gap: 0 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .h1 {
@@ -58,7 +62,7 @@
   gap: 50px;
 }
 
-a{
+.a{
   text-decoration: none;
   color: black;
   padding: 30px;
@@ -66,4 +70,15 @@ a{
   height: 300px;
   border-radius: 10px;
   border: 1px solid black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.img{
+  margin-top: 30px;
+  width: 330px;
+  height: 150px;
 }
